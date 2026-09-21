@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Студия мебели</title>
+  <rect width="64" height="64" rx="16" fill="#344439"/>
+  <g stroke="#f4f2ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="14" y="15" width="36" height="32" rx="2"/>
+    <path d="M32 15v32M19 48v3m26-3v3M27 28v6m10-6v6"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /walenza-studio/admin
+Disallow: /walenza-studio/api/
+
+Sitemap: https://rto2311ud-stack.github.io/walenza-studio/sitemap.xml
