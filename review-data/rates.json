@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "comment": "Действующие розничные ставки. null означает, что ставка ещё не задана. Значения не выдумывать. Файл-пример отдельно и не применяется.",
+  "pricesReviewed": false,
+  "pricesReviewedComment": "Поставить true только после сверки действующего прайса владельцем.",
+  "rates": {
+    "counter": {
+      "label": "Столешница ЛДСП / пластик 38 мм",
+      "unit": "linear-metre",
+      "comment": "Розничная ставка за погонный метр при глубине 600 мм. Декор и поставщика подтвердить до заполнения.",
+      "value": null
+    },
+    "counterLaminate12": {
+      "label": "Столешница ЛДСП / пластик 12 мм",
+      "unit": "linear-metre",
+      "comment": "За погонный метр при глубине 600 мм. Не подменяет компакт-плиту.",
+      "value": null
+    },
+    "counterLaminate20": {
+      "label": "Столешница ЛДСП / пластик 20 мм",
+      "unit": "linear-metre",
+      "comment": "За погонный метр при глубине 600 мм.",
+      "value": null
+    },
+    "counterCompact12": {
+      "label": "Компакт-плита 12 мм",
+      "unit": "m2",
+      "comment": "Выберите m2 (за м²) или sheet (за целый лист). Для sheet обязательны sheetLengthMm и sheetWidthMm. value:null сохраняет исходную цену прайса Arcobaleno, единицу всё равно задаёт этот файл. Обработку и раскрой подтвердить отдельно.",
+      "value": null,
+      "sheetLengthMm": null,
+      "sheetWidthMm": null
+    },
+    "counterCompact20": {
+      "label": "Компакт-плита 20 мм",
+      "unit": "m2",
+      "comment": "Своя подтверждённая розничная ставка. Для sheet обязательны размеры листа в мм. Без ставки позиция не включается.",
+      "value": null,
+      "sheetLengthMm": null,
+      "sheetWidthMm": null
+    },
+    "counterCompact38": {
+      "label": "Компакт-плита 38 мм",
+      "unit": "m2",
+      "comment": "Своя подтверждённая розничная ставка. Не используется ставка компакт-плиты 12 мм.",
+      "value": null,
+      "sheetLengthMm": null,
+      "sheetWidthMm": null
+    },
+    "lighting": {
+      "label": "Подсветка",
+      "unit": "linear-metre",
+      "comment": "За погонный метр рабочего навесного ряда. Антресоли исключены.",
+      "value": null
+    },
+    "handles": {
+      "label": "Ручки",
+      "unit": "piece",
+      "comment": "За одну ручку. Модель и отделку подтвердить отдельно; GOLA рассчитывается отдельно.",
+      "value": null
+    }
+  }
+}
