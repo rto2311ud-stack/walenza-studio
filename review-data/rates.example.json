@@ -25,7 +25,7 @@
     "counterCompact12": {
       "label": "Компакт-плита 12 мм",
       "unit": "sheet",
-      "comment": "Выберите m2 (за м²) или sheet (за целый лист). Для sheet обязательны sheetLengthMm и sheetWidthMm. value:null сохраняет исходную цену прайса Arcobaleno, единицу всё равно задаёт этот файл. Обработку и раскрой подтвердить отдельно.",
+      "comment": "value:null сохраняет доступную цену Arcobaleno выбранного прайса строго за м². Для своей ставки укажите value и m2 (за м²) либо sheet (за целый лист). Для sheet обязательны sheetLengthMm и sheetWidthMm. Обработку, стыки и раскрой подтвердить отдельно.",
       "value": 68200,
       "sheetLengthMm": 4200,
       "sheetWidthMm": 650
