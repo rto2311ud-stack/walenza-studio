@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "confirmed": false,
+  "included": "",
+  "materials": [
+    {
+      "id": "ldsp",
+      "label": "ЛДСП",
+      "description": "Лаконичные фасады и древесные фактуры",
+      "pricePerMetre": null
+    },
+    {
+      "id": "mdf",
+      "label": "МДФ",
+      "description": "Отделку и цвет подберём вместе",
+      "pricePerMetre": null
+    },
+    {
+      "id": "film",
+      "label": "МДФ в плёнке",
+      "description": "Гладкие или рамочные фасады",
+      "pricePerMetre": null
+    }
+  ],
+  "contacts": {
+    "whatsapp": "",
+    "telegram": "",
+    "max": ""
+  }
+}
