@@ -11,14 +11,20 @@
     },
     {
       "id": "mdf",
-      "label": "МДФ",
-      "description": "Отделку и цвет подберём вместе",
+      "label": "МДФ в эмали",
+      "description": "Гладкие окрашенные фасады",
       "pricePerMetre": null
     },
     {
       "id": "film",
       "label": "МДФ в плёнке",
       "description": "Гладкие или рамочные фасады",
+      "pricePerMetre": null
+    },
+    {
+      "id": "plastic",
+      "label": "Пластик",
+      "description": "ARPA / ABET / ETERNO по прайсу",
       "pricePerMetre": null
     }
   ],
